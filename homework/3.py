@@ -101,7 +101,7 @@ for i in words:
 print(new_words)"""
 
 #11
-words = ["начало", "путь", "стоп", "дальше", "конец"]
+"""words = ["начало", "путь", "стоп", "дальше", "конец"]
 stop_word = "стоп"
 a=0
 for i in words:
@@ -110,4 +110,4 @@ for i in words:
        # print(a)
     else:
         print(f'Было {a} слова до слова стоп')
-        break
+        break"""
