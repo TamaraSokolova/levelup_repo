@@ -80,7 +80,7 @@ else:
     print('Холодно')'''
 
 #10
-n=str(input('Введите строку: '))
+'''n=str(input('Введите строку: '))
 n1=n.lower()
 n2=n1.replace(' ','')
 #print(n2)
@@ -100,6 +100,8 @@ for i in range(0,len(n2),1):
             print('Это палиндром!')
         break
     break
+'''
+
 
 
 '''for s in range(0,len(n2),1):
