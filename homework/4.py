@@ -1,3 +1,4 @@
+
 #1
 """a=0
 print(sum([a+i for i in range(1, 101)]))"""
