@@ -22,7 +22,7 @@ class Bird(Animal):
     def display_info(self):
             print(f'can_fly {self.name} - {self.species}, {self.can_fly}')
 
-a = Animal('zebra', 'mammal', True)
+a = Animal('zebra', 'mammal')
 m = Mammal('m', 'm', True)
 m.display_info()
 b = Bird('typic', 'bird', True)
@@ -40,6 +40,6 @@ class Zoo():
     def show_all_animals(self):
         print ('животные')
         for i in animals:
-             print(i)
+            print(i)
             
 
