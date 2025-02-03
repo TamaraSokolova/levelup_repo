@@ -15,14 +15,15 @@ class Mammal(Animal):
             print(f'warm_blood {self.name} - {self.species}, {self.warm_blood}')
 
 class Bird(Animal):
-        def __init__(self, name, species, warm_blood):
+        def __init__(self, name, species, can_fly):
             super().__init__(name, species)
             self.can_fly = True
 
         def display_info(self):
             print(f'can_fly {self.name} - {self.species}, {self.can_fly}')
 
-zebra = Animal(zebra, mammal)
+a = Animal(zebra, mammal, True)
+b = Bird(typic, bird, True)
     
 '''class Zoo():
     def __init__(self, animals):
