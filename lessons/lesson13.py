@@ -28,7 +28,7 @@ m.display_info()
 b = Bird('typic', 'bird', True)
 b.display_info()
     
-class Zoo():
+"""class Zoo():
     def __init__(self, animals):
         self.animals = []
 
@@ -40,6 +40,6 @@ class Zoo():
     def show_all_animals(self):
         print ('животные')
         for i in animals:
-            print(i)
+            print(i)"""
             
 
