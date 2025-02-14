@@ -319,4 +319,5 @@ def check_required(**kwargs):
 result1 = check_required(required="Это важно", optional="Это не важно")
 result2 = check_required(optional="Это не важно")
 print(result1)  # Ожидаемый результат: "Это важно"
-print(result2)  # Ожидаемый результат: "Ключ не найден"'''
+print(result2)  # Ожидаемый результат: "Ключ не найден"
+'''
